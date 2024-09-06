@@ -108,7 +108,7 @@ npx serve -p 3000 -s
 
 #### Getting to grips with the new technologies: 
 
-This was the first time using TypeScript, Tailwind and Prisma Orm for me, therefore before writing any code I wanted to gain understanding of the stack being used. I spent the first 3 hours looking through the code base and finding the relevant documentation for the given tasks and learning the fundemants for these technologies.
+This was the first time using TypeScript, Tailwind and Prisma Orm for me, therefore before writing any code I wanted to gain understanding of the stack being used. I spent the first 3 hours looking through the code base and finding the relevant documentation for the given tasks and learning the fundamentals for these technologies.
 
 #### Scheduled Date Field
 Then I proceeded to start with the backend adding the scheduled date field to the prisma schema in `schema.prisma` file alongside adding default values to the `server.post` and `server.put` handles. I then added the relevant frontend jsx to fit the new field into the "All Entries", "Create" and "Edit" pages, using Tailwind CSS to stylise it.
