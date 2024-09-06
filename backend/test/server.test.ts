@@ -12,9 +12,6 @@ afterAll(async () => {
   await server.close();
 });
 
-// test to see if all entries have all the necessary fields
-// test to see if all the fields are of the righ type
-
 
 test('Check that the database IDs are all unique', async () =>{
 
